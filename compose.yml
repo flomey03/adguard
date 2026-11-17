@@ -9,6 +9,7 @@ services:
       - 53:53
       - 53:53
       - 4443:443/tcp
+      - 8880:80/tcp
       - 3000:3000/tcp
     volumes:
       - work:/opt/adguardhome/work
